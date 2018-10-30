@@ -1,0 +1,29 @@
+{
+  "name": "Melvin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha tests/*.js --exit"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "lodash.clonedeep": "^4.5.0",
+    "moment": "^2.21.0",
+    "moment-timezone": "^0.5.14",
+    "morgan": "~1.9.0",
+    "newsapi": "^2.2.1",
+    "pug": "2.0.0-beta11",
+    "request": "^2.85.0",
+    "serve-favicon": "~2.4.5",
+    "words-to-numbers": "^1.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4",
+    "nock": "^9.2.3",
+    "standard": "^11.0.0"
+  }
+}
